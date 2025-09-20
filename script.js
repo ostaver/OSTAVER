@@ -112,7 +112,7 @@ function updateLanguage(lang) {
 
 // Language switcher event listeners
 document.addEventListener('DOMContentLoaded', () => {
-    // Default to English (no saved preferences)
+    // Default to English (no saving preferences)
     updateLanguage('en');
 
     // Add click listeners to language buttons
@@ -371,7 +371,7 @@ animatedElements.forEach(el => {
     observer.observe(el);
 });
 
-// Add typing effect to hero title with HTML support
+// Add typing effect to hero title with HTML support - INTRO
 function typeWriter(element, htmlText, speed = 100) {
     // Parse HTML to separate text from tags
     const tempDiv = document.createElement('div');
@@ -428,7 +428,7 @@ function typeWriter(element, htmlText, speed = 100) {
     type();
 }
 
-// Initialize typing effect when page loads
+// Initialize typing effect when page loads - INTRO
 window.addEventListener('load', () => {
     const heroTitle = document.querySelector('.hero-title');
     const underTitle = document.querySelector('.hero-subtitle');
@@ -534,9 +534,6 @@ document.addEventListener('DOMContentLoaded', function () {
     downloadBtn.addEventListener('click', function () {
         const email = emailInput.value;
 
-        // In a real application, you would validate and process the email here
-        // For demonstration, we'll just show a success message
-
         messageDiv.textContent = `Thank you! Download started for ${email}`;
         messageDiv.className = 'message success';
 
@@ -545,7 +542,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // Create a temporary link for download
             const link = document.createElement('a');
             link.href = 'https://github.com/alrk855/GrayZone';
-            link.download = 'document.pdf';
+            link.download = 'https://github.com/alrk855/GrayZone/archive/refs/heads/main.zip';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
