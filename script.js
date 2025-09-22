@@ -1,3 +1,45 @@
+// Loading Screen
+window.addEventListener('load', () => {
+    const loadingScreen = document.getElementById('loading-screen');
+
+    // Add a minimum loading time for better UX
+    setTimeout(() => {
+        loadingScreen.classList.add('fade-out');
+
+        // Remove the loading screen from DOM after fade out
+        setTimeout(() => {
+            loadingScreen.remove();
+            // Start text animations after loading screen is gone
+            startTextAnimations();
+        }, 500);
+    }, 1000); // Minimum 1 second loading time
+});
+
+// Store original text content
+let originalHeroText = '';
+let originalSubtitleText = '';
+
+// Show loading screen immediately if page is still loading
+document.addEventListener('DOMContentLoaded', () => {
+    const loadingScreen = document.getElementById('loading-screen');
+    if (document.readyState === 'loading') {
+        loadingScreen.style.display = 'flex';
+    }
+
+    // Store and clear hero text during loading
+    const heroTitle = document.querySelector('.hero-title');
+    const heroSubtitle = document.querySelector('.hero-subtitle');
+
+    if (heroTitle) {
+        originalHeroText = heroTitle.innerHTML;
+        heroTitle.innerHTML = '';
+    }
+    if (heroSubtitle) {
+        originalSubtitleText = heroSubtitle.textContent;
+        heroSubtitle.textContent = '';
+    }
+});
+
 // Localization
 const translations = {
     en: {
@@ -12,7 +54,7 @@ const translations = {
         'get-in-touch': 'Get in Touch',
         'download': 'DOWNLOAD',
         'about': 'About GrayZone',
-        'game-description': 'The player takes on the role of a high school senior on the path to education, where he will continue his studies and higher education. He receives a wonderful opportunity for a scholarship to a great university abroad, but the time to apply for the scholarship is short. To succeed, the player must go through a series of series and situations that look atreality - preparing documents, administrative, interviews with institutions and test questions. <br><br>At each step, the player is faced with a choice: to follow the honest path and put in the effort, or to choose which groups of positive practices at first glance seem like a solution. The decisions they make lead the player through a ‘gray zone’ - a space in which the borderbetween ethically correct actions and illegal actions is unclear and difficult to demarcate.<br><br>Each choice has consequences based on the story and the final outcome: obtainingthe scholarship in an honest way, dismiss opportunity, or achieve success through a group of practicesthat leave behind negative integrity scars.<br><br>The game offers multiple scenarios and endings that make it playful and interactive, and theresponse to critical thinking for young people about the importance of integrity, ethicalchoices and the consequences of corruption.The goals of the game that we strive to achieve are the following: <br><br>Young people are faced with real corrupt situations. Of course, critical thinking, moral assessment and active reflection on the decisions madeby each player. (In the process of playing, each player\'s integrity, reputation, time andmoney are measured). <br>Values ​​such as integrity, honesty and resistance to corruption are promoted.<br>A long-lasting resource which will be used in teaching and non-formal educational environments.',
+        'game-description': 'The player takes on the role of a high school senior on the path to education, where he will continue his studies and higher education. He receives a wonderful opportunity for a scholarship to a great university abroad, but the time to apply for the scholarship is short. To succeed, the player must go through a series of series and situations that look atreality - preparing documents, administrative, interviews with institutions and test questions. <br><br>At each step, the player is faced with a choice: to follow the honest path and put in the effort, or to choose which groups of positive practices at first glanceseem like a solution. The decisions they make lead the player through a ‘gray zone’ - a space in which the borderbetween ethically correct actions and illegal actions is unclear and difficult to demarcate.<br><br>Each choice has consequences based on the story and the final outcome: obtainingthe scholarship in an honest way, dismiss opportunity, or achieve success through a group of practicesthat leave behind negative integrity scars.<br><br>The game offers multiple scenarios and endings that make it playful and interactive, and theresponse to critical thinking for young people about the importance of integrity, ethicalchoices and the consequences of corruption.The goals of the game that we strive to achieve are the following: <br><br>Young people are faced with real corrupt situations. Of course, critical thinking, moral assessment and active reflection on the decisions madeby each player. (In the process of playing, each player\'s integrity, reputation, time andmoney are measured). <br>Values ​​such as integrity, honesty and resistance to corruption are promoted.<br>A long-lasting resource which will be used in teaching and non-formal educational environments.',
         'team-title': 'Meet The Team',
         'fitz-title': 'Game Developer',
         'aco-title': 'Game Developer',
@@ -112,7 +154,7 @@ function updateLanguage(lang) {
 
 // Language switcher event listeners
 document.addEventListener('DOMContentLoaded', () => {
-    // Default to English (no saving preferences)
+    // Default to English (no saved preferences)
     updateLanguage('en');
 
     // Add click listeners to language buttons
@@ -371,7 +413,7 @@ animatedElements.forEach(el => {
     observer.observe(el);
 });
 
-// Add typing effect to hero title with HTML support - INTRO
+// Add typing effect to hero title with HTML support
 function typeWriter(element, htmlText, speed = 100) {
     // Parse HTML to separate text from tags
     const tempDiv = document.createElement('div');
@@ -428,19 +470,24 @@ function typeWriter(element, htmlText, speed = 100) {
     type();
 }
 
-// Initialize typing effect when page loads - INTRO
-window.addEventListener('load', () => {
+// Function to start text animations after loading screen
+function startTextAnimations() {
     const heroTitle = document.querySelector('.hero-title');
     const underTitle = document.querySelector('.hero-subtitle');
-    // Use innerHTML to preserve HTML tags like <span class="accent">
-    const originalText = heroTitle.innerHTML;
-    const underText = underTitle.textContent;
+
+    // Use stored original text or fallback to default
+    const originalText = originalHeroText || 'Hello, We are the <span class="accent">GrayZone Team</span>';
+    const underText = originalSubtitleText || 'Team full of creative people.';
+
+    // Start typing the main title
     typeWriter(heroTitle, originalText, 50);
-    underTitle.textContent = '...'
+    underTitle.textContent = '...';
+
+    // Start typing the subtitle after main title
     setTimeout(() => {
         typeWriter(underTitle, underText, 20);
     }, 2000);
-});
+}
 
 // Add particle effect to hero section
 function createParticles() {
@@ -534,6 +581,9 @@ document.addEventListener('DOMContentLoaded', function () {
     downloadBtn.addEventListener('click', function () {
         const email = emailInput.value;
 
+        // In a real application, you would validate and process the email here
+        // For demonstration, we'll just show a success message
+
         messageDiv.textContent = `Thank you! Download started for ${email}`;
         messageDiv.className = 'message success';
 
@@ -542,13 +592,16 @@ document.addEventListener('DOMContentLoaded', function () {
             // Create a temporary link for download
             const link = document.createElement('a');
             link.href = 'https://github.com/alrk855/GrayZone';
-            link.download = 'https://github.com/alrk855/GrayZone/archive/refs/heads/main.zip';
+            link.download = 'document.pdf';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
 
             // Close the popup after a short delay
-            setTimeout(function () {
+            setTimeout(() => {
+                popupOverlay.classList.remove('active');
+            }, 2000);
+            Timeout(function () {
                 popupOverlay.classList.remove('active');
             }, 1500);
         }, 1000);
