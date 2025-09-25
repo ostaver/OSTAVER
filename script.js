@@ -73,7 +73,17 @@ const translations = {
         'ognen-bio': 'Ognen is responsible for the communication and promotion of the initiative. He ensures project visibility through media coverage, collaboration with public figures and institutions, and active community engagement. He plans and coordinates all activities related to the communication strategy, making sure every message is precise, relevant, and aligned with the project’s values. With a systematic and professional approach, Ognen monitors campaign results and adapts strategies to increase impact and community engagement. Combining creativity with analytical thinking, he produces content that is striking, persuasive, and accessible to diverse audiences.',
         'filip-bio': 'Filip is a background designer focused on creating immersive environments and scenes that enrich the player experience. His work emphasizes spatial compositions and atmospheric design, carefully balancing aesthetics and functionality. From color choices and lighting effects to detailed elements, he ensures each background is vivid and engaging. A multimedia student passionate about game design, Filip combines creativity with strong technical and practical skills, delivering visual elements that are both harmonious and functional. His designs not only create a distinctive visual identity but also allow players to fully immerse themselves in the game world.',
         'mina-bio': 'Mina is a strategically oriented creative focused on developing and implementing content that is both engaging and directly applicable to the target audience. She carefully analyzes user needs and creates solutions that drive engagement and long-term value. She is dedicated to ensuring that every piece of content is interactive and easily accessible. Combining creativity, analytical thinking, and awareness of current trends, Mina ensures that projects are not only innovative but also effective in practice. Her dedication guarantees that every step of the process is well-planned and executed with structure.',
-        'btn-dwn': 'Download'
+        'btn-dwn': 'Download',
+        'game-tester-title': 'Game Testers',
+        'game-tester-desc': 'Our dedicated game testing team ensures the highest quality gaming experience through rigorous testing, bug finding and overall feedback.<br><br> Special thanks to <b>Kristijan Srbinoski, Nikola Shikole, Vule, Teski, Zafir Bogdanovikj, Andrej Zlatanov and Hristijan Petkovski</b>.',
+        'game-tester-subtitle': 'Testing',
+        'fitz-ime': 'Filip Mladenovic',
+        'aco-ime': 'Aleksandar Talevski',
+        'hristina-ime': 'Hristina Jovcevska',
+        'martin-ime': 'Martin Nasteski',
+        'ognen-ime': 'Ognen Kiprijanoski',
+        'filip-ime': 'Filip Simonoski',
+        'mina-ime': 'Mina Zdravevska',
     },
     mk: {
         'Graytitle': "[СиваЗона]",
@@ -106,7 +116,17 @@ const translations = {
         'ognen-bio': 'Огнен е одговорен за комуникацијата и промоцијата на иницијативата. Тој обезбедува видливост на проектот преку медиумско покривање, соработка со јавни личности и институции и активно вклучување на заедницата. Тој ги планира и координира сите активности поврзани со комуникациската стратегија, осигурувајќи се дека секоја порака е прецизна, релевантна и усогласена со вредностите на проектот. Со систематски и професионален пристап, Огнен ги следи резултатите од кампањата и ги прилагодува стратегиите за да го зголеми влијанието и ангажирањето на заедницата. Комбинирајќи ја креативноста со аналитичкото размислување, тој создава содржина што е впечатлива, убедлива и достапна за разновидна публика.',
         'filip-bio': 'Филип е дизајнер на позадини фокусиран на создавање импресивни средини и сцени што го збогатуваат искуството на играчот. Неговата работа нагласува просторни композиции и атмосферски дизајн, внимателно балансирајќи ја естетиката и функционалноста. Од изборот на бои и светлосни ефекти до деталните елементи, тој се грижи секоја позадина да биде живописна и привлечна. Како мултимедијален студент страствен за дизајн на игри, Филип ја комбинира креативноста со силни технички и практични вештини, испорачувајќи визуелни елементи кои се хармонични и функционални. Неговите дизајни не само што создаваат препознатлив визуелен идентитет, туку им овозможуваат и на играчите целосно да се потопат во светот на играта.',
         'mina-bio': 'Мина е стратешки ориентирана креативка фокусирана на развој и имплементација на содржина што е ангажирачка и директно применлива за целната публика. Таа внимателно ги анализира потребите на корисниците и создава решенија што го поттикнуваат ангажманот и долгорочната вредност. Таа е посветена на тоа да се осигура дека секоја содржина е интерактивна и лесно достапна. Комбинирајќи креативност, аналитичко размислување и свест за актуелните трендови, Мина гарантира дека проектите се не само иновативни, туку и ефикасни во пракса. Нејзината посветеност гарантира дека секој чекор од процесот е добро испланиран и структурирано извршен.',
-        'btn-dwn': 'Преземи'
+        'btn-dwn': 'Преземи',
+        'game-tester-title': 'Тестери на играта',
+        'game-tester-desc': 'Нашиот посветен тим за тестирање на игри обезбеди искуство со играње со највисок квалитет преку ригорозно тестирање, откривање грешки и целокупни повратни информации.<br><br> Посебна благодарност до <b>Кристијан Србиноски, Никола Шиколе, Вуле, Тешки, Зафир Богдановиќ, Андреј Златанов и Христијан Петковски</b>.',
+        'game-tester-subtitle:': 'Тестирање',
+        'fitz-ime': 'Филип Младенович',
+        'aco-ime': 'Александар Талевски',
+        'hristina-ime': 'Христина Јовчевска',
+        'martin-ime': 'Мартин Настески',
+        'ognen-ime': 'Огнен Кипријаноски',
+        'filip-ime': 'Филип Симоноски',
+        'mina-ime': 'Мина Здравевска',
     }
 };
 
@@ -119,8 +139,8 @@ function updateLanguage(lang) {
     document.querySelectorAll('[data-key]').forEach(element => {
         const key = element.getAttribute('data-key');
         if (translations[lang][key]) {
-            // Use innerHTML for game-description to allow HTML tags like <br>
-            if (key === 'game-description') {
+            // Use innerHTML for keys that contain HTML tags
+            if (key === 'game-description' || key === 'game-tester-desc') {
                 element.innerHTML = translations[lang][key];
             } else {
                 element.textContent = translations[lang][key];
