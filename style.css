@@ -1034,3 +1034,58 @@ section {
         font-size: 1rem;
     }
 }
+* Disclaimer Image */
+.disclaimer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0 2rem 0;
+    padding: 0 1rem;
+}
+
+.disclaimer-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.disclaimer-image:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 768px) {
+    .disclaimer-container {
+        margin: 2rem 0 1rem 0;
+    }
+    
+    .disclaimer-image {
+        max-width: 95%;
+    }
+}/* 
+Team Section Background Image */
+.team {
+    position: relative;
+}
+
+.team-background-image {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 20%;
+    height: 10%;
+    background-image: url('Images/IMG_8368.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.03;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.team .container {
+    position: relative;
+    z-index: 1;
+}
