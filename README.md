@@ -1,22 +1,22 @@
-<h1 align="center">Hi, I'm Philip (Also known as OSTAVER)</h1>
+<h1 align="center">Greetings, I'm Filip 👋 <sub><sup>(also known as OSTAVER)</sup></sub></h1>
 <h3 align="center">Full Stack Software Engineer</h3>
 
 <p align="center">
   <a href="https://filipmladenovik.com" target="_blank">🌐 Portfolio</a> •
-  <a href="mailto:filipmladenovik123@email.com">📬 Email</a> •
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN](https://www.linkedin.com/in/filip-mladenovic-a724b7386" target="_blank">💼 LinkedIn</a> •
-  <a href="https://twitter.com/YOUR_TWITTER" target="_blank">🔴 Youtube</a>
+  <a href="mailto:filipmladenovik123@gmail.com">📬 Email</a> •
+  <a href="https://www.linkedin.com/in/filip-mladenovic-a724b7386" target="_blank">💼 LinkedIn</a> •
+  <a href="https://www.youtube.com/@ostaver3360" target="_blank">🔴 YouTube</a>
 </p>
 
 ---
 
 ## 👨‍💻 About Me
 
-- 🔭 Currently working on **[Sharp-Design](https://github.com/ostaver/Sharp-Design)**
-- 🌐 All of my projects are at **[Portfolio](https://website.com)**
-- 💬 Ask me about **C#, Node.js, TypeScript, system design, and API architecture**
+- 🔭 Currently working on **[Sharp-Design](https://github.com/ostaver/Sharp-Design)** — a design system and component skill library for AI agents
+- 🌐 All of my projects are at **[filipmladenovic.com](https://filipmladenovic.com)**
+- 💬 Ask me about **C#, ASP.NET Core, Node.js, TypeScript, system design, and API architecture**
 - 🧠 Currently exploring **edge computing and AI-integrated web apps**
-- ⚡ Fun fact: I do not drink coffee
+- ⚡ Fun fact: I debug just fine without coffee — don't need it
 
 ---
 
@@ -31,6 +31,8 @@
 
 **Backend**
 
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -49,25 +51,25 @@
 
 | Project | Description | Stack |
 |--------|-------------|-------|
-| [Sharp-Design](https://github.com/ostaver/Sharp-Design) | Design system and component SKILLS for AI Agents |
-| [Project Two](https://github.com/YOUR_GITHUB_USERNAME/project-two) | Brief description of what it does | Next.js, PostgreSQL |
-| [Project Three](https://github.com/YOUR_GITHUB_USERNAME/project-three) | Brief description of what it does | Node.js, Redis, Docker |
+| [Sharp-Design](https://github.com/ostaver/Sharp-Design) | Design system and component skill library for AI agents | TypeScript, HTML, CSS, Node.js |
+| [Sharp-Shaders](https://github.com/ostaver/Sharp-Shaders) | WebGL ready elegant shaders for web use | WebGL/OpenGL, GLSL, Three.js |
+| [Sharp-docs](https://github.com/ostaver/Sharp-Docs) | Retrieval-Augmented Generation app with Gemini - Simply, a Document Analyzer | Vite, AI Integration, Docker |
 
 ---
 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ostaver&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ostaver&layout=compact&theme=tokyonight&hide_border=true" height="165" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ostaver&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile+Views&color=0e75b6&style=flat" alt="profile views" />
+  <img src="https://komarev.com/ghpvc/?username=ostaver&label=Profile+Views&color=0e75b6&style=flat" alt="profile views" />
 </p>
