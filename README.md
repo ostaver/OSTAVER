@@ -1,22 +1,22 @@
-<h1 align="center">Hi, I'm Philip 👋</h1>
+<h1 align="center">Hi, I'm Philip (Also known as OSTAVER)</h1>
 <h3 align="center">Full Stack Software Engineer</h3>
 
 <p align="center">
-  <a href="https://website.com" target="_blank">🌐 Portfolio</a> •
-  <a href="mailto:your@email.com">📬 Email</a> •
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank">💼 LinkedIn</a> •
-  <a href="https://twitter.com/YOUR_TWITTER" target="_blank">🐦 Twitter</a>
+  <a href="https://filipmladenovik.com" target="_blank">🌐 Portfolio</a> •
+  <a href="mailto:filipmladenovik123@email.com">📬 Email</a> •
+  <a href="https://linkedin.com/in/YOUR_LINKEDIN](https://www.linkedin.com/in/filip-mladenovic-a724b7386" target="_blank">💼 LinkedIn</a> •
+  <a href="https://twitter.com/YOUR_TWITTER" target="_blank">🔴 Youtube</a>
 </p>
 
 ---
 
 ## 👨‍💻 About Me
 
-- 🔭 Currently building **[Sharp-Design](https://github.com/YOUR_GITHUB_USERNAME/sharp-design)**
-- 🌐 All of my projects are at **[website.com](https://website.com)**
-- 💬 Ask me about **React, Node.js, TypeScript, system design, and API architecture**
+- 🔭 Currently working on **[Sharp-Design](https://github.com/ostaver/Sharp-Design)**
+- 🌐 All of my projects are at **[Portfolio](https://website.com)**
+- 💬 Ask me about **C#, Node.js, TypeScript, system design, and API architecture**
 - 🧠 Currently exploring **edge computing and AI-integrated web apps**
-- ⚡ Fun fact: I debug faster with coffee than without
+- ⚡ Fun fact: I do not drink coffee
 
 ---
 
@@ -49,7 +49,7 @@
 
 | Project | Description | Stack |
 |--------|-------------|-------|
-| [Sharp-Design](https://github.com/YOUR_GITHUB_USERNAME/sharp-design) | Design system and component library | React, TypeScript, Storybook |
+| [Sharp-Design](https://github.com/ostaver/Sharp-Design) | Design system and component SKILLS for AI Agents |
 | [Project Two](https://github.com/YOUR_GITHUB_USERNAME/project-two) | Brief description of what it does | Next.js, PostgreSQL |
 | [Project Three](https://github.com/YOUR_GITHUB_USERNAME/project-three) | Brief description of what it does | Node.js, Redis, Docker |
 
