@@ -50,7 +50,7 @@
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Newest Projects
 
 | Project | Description | Stack |
 |--------|-------------|-------|
