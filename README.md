@@ -13,7 +13,7 @@
 ## 👨‍💻 About Me
 
 - 🔭 Currently working on **[Sharp-Design](https://github.com/ostaver/Sharp-Design)** — a design system and component skill library for AI agents
-- 🌐 All of my projects are at **[filipmladenovik.com](https://filipmladenovik.com)**
+- 🌐 All of my projects are at **[filipmladenovik.com](https://filipmladenovik.com) (Coming Soon)**
 - 💬 Ask me about **C#, ASP.NET Core, Node.js, TypeScript, system design, and API architecture**
 - 🧠 Currently exploring **edge computing and AI-integrated web apps**
 - ⚡ Fun fact: I debug just fine without coffee — don't need it
