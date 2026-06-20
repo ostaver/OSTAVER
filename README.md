@@ -12,7 +12,7 @@
 
 ## 👨‍💻 About Me
 
-- 🔭 Currently working on **[Sharp-Design](https://github.com/ostaver/Sharp-design)** — a design system and component skill library for AI agents
+- 🔭 Currently working on **[Sharp-design](https://github.com/ostaver/Sharp-design)** — a design system and component skill library for AI agents
 - 🌐 All of my projects are at **[filipmladenovik.com](https://filipmladenovik.com) (Coming Soon)**
 - 💬 Ask me about **C#, ASP.NET Core, Node.js, TypeScript, system design, and API architecture**
 - 🧠 Currently exploring **edge computing and AI-integrated web apps**
@@ -54,8 +54,8 @@
 
 | Project | Description | Stack |
 |--------|-------------|-------|
-| [Sharp-Design](https://github.com/ostaver/Sharp-design) | Design system and component skill library for AI agents | TypeScript, HTML, CSS, Node.js |
-| [Sharp-Shaders](https://github.com/ostaver/Sharp-shaders) | WebGL ready elegant shaders for web use | WebGL/OpenGL, GLSL, Three.js |
+| [Sharp-design](https://github.com/ostaver/Sharp-design) | Design system and component skill library for AI agents | TypeScript, HTML, CSS, Node.js |
+| [Sharp-shaders](https://github.com/ostaver/Sharp-shaders) | WebGL ready elegant shaders for web use | WebGL/OpenGL, GLSL, Three.js |
 | [Sharp-docs](https://github.com/ostaver/Sharp-docs) | Retrieval-Augmented Generation app with Gemini - Simply, a Document Analyzer | Vite, AI Integration, Next.js |
 
 ---
