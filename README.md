@@ -1,4 +1,5 @@
-Currently Full Stack Web Developer. Space & Art Enthusiast, part time music producer. Lover of creativity and chaos.
+Currently employed as a Full Stack Web Developer. 
+- Space & Art Enthusiast, part time music producer. Lover of creativity and chaos.
 - Current goal: `Visit outer Space`.
 - Always open for collaboration regarding programming, music production or creativity in general.
 
