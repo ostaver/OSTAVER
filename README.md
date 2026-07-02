@@ -1,22 +1,16 @@
-<h1 align="center">Greetings, I'm Filip 👋 <sub><sup>(also known as OSTAVER)</sup></sub></h1>
-<h3 align="center">Full Stack Software Engineer</h3>
-
-<p align="center">
-  <a href="https://filipmladenovik.com" target="_blank">🌐 Portfolio</a> •
-  <a href="mailto:filipmladenovik123@gmail.com">📬 Email</a> •
-  <a href="https://www.linkedin.com/in/filip-mladenovic-a724b7386" target="_blank">💼 LinkedIn</a> •
-  <a href="https://www.youtube.com/@ostaver3360" target="_blank">🔴 YouTube</a>
-</p>
+Currently Full Stack Web Developer. Space & Art Enthusiast, part time music producer. Lover of creativity and chaos.
+- Current goal: `Visit outer Space`.
+- Always open for collaboration regarding programming, music production or creativity in general.
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
-- 🔭 Currently working on **[Sharp-design](https://github.com/ostaver/Sharp-design)** — a design system and component skill library for AI agents
-- 🌐 All of my projects are at **[filipmladenovik.com](https://filipmladenovik.com) (Coming Soon)**
-- 💬 Ask me about **C#, ASP.NET Core, Node.js, TypeScript, system design, and API architecture**
-- 🧠 Currently exploring **edge computing and AI-integrated web apps**
-- ⚡ Fun fact: I debug just fine without coffee — don't need it
+- Currently working on **[Sharp-design](https://github.com/ostaver/Sharp-design)** — a design system and component skill library for AI agents
+- All of my projects are at **[filipmladenovik.com](https://filipmladenovik.com) (Coming Soon)**
+- Ask me about `Intelligence` or `Psychology`. I have read many books.
+- Currently exploring **edge computing and AI-integrated web apps**
+- Fun fact: I don't drink coffee, and i don't like parties. I am basically a nerd.
 
 ---
 
@@ -50,7 +44,7 @@
 
 ---
 
-## 🚀 Newest Projects
+## Newest Projects
 
 | Project | Description | Stack |
 |--------|-------------|-------|
