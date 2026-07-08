@@ -45,7 +45,7 @@ Currently employed as a Full Stack Web Developer.
 
 ---
 
-## Newest Projects
+## Featured Projects
 
 | Project | Description | Stack |
 |--------|-------------|-------|
@@ -53,21 +53,3 @@ Currently employed as a Full Stack Web Developer.
 | [Sharp-shaders](https://github.com/ostaver/Sharp-shaders) | WebGL ready elegant shaders for web use | WebGL/OpenGL, GLSL, Three.js |
 | [Sharp-docs](https://github.com/ostaver/Sharp-docs) | Retrieval-Augmented Generation app with Gemini - Simply, a Document Analyzer | Vite, AI Integration, Next.js |
 
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ostaver&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ostaver&layout=compact&theme=tokyonight&hide_border=true" height="165" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ostaver&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=ostaver&label=Profile+Views&color=0e75b6&style=flat" alt="profile views" />
-</p>
