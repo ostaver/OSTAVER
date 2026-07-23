@@ -7,7 +7,7 @@ Currently employed as a Full Stack Web Developer.
 
 ## About Me
 
-- Currently working on **[Sharp-design](https://github.com/ostaver/Sharp-design)** — a design system and component skill library for AI agents.
+- Currently working on **[Sharp-design](https://sharp.ostaver.com)** — a design system and component skill library for AI agents.
 - All of my projects are at **[OSTAVER.com](https://OSTAVER.com) (Coming Soon)**
 - Ask me about `Intelligence` or `Psychology`. I have read many books.
 - Currently exploring **Computing and AI innovations**.
