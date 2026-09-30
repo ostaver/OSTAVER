@@ -2,7 +2,7 @@
   <img src="./banner.png" alt="OSTAVER" width="100%" />
 </p>
 
-# Hi, I'm Filip (OSTAVER) 👋
+# Hi, I'm Filip aka *OSTAVER*
 
 > Full Stack Web Developer & Creative Technologist. Lover of creativity and chaos.
 > Building high-performance web systems, among many other things.
@@ -46,8 +46,9 @@ Website: **[OSTAVER](https://ostaver.com)**
 ![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 ![WSL](https://img.shields.io/badge/WSL-0A97F5?style=for-the-badge&logo=windows&logoColor=white)
 
-**Creative & Audio**  
+**Creativity**  
 ![FL Studio](https://img.shields.io/badge/FL_Studio-FF6B00?style=for-the-badge&logoColor=white)
+![Blender](https://img.shields.io/badge/Blender-FF6B00?style=for-the-badge&logoColor=orange)
 
 ---
 
